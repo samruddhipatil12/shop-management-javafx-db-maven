@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller = "edit_user.EditUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="747.0" prefWidth="972.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff8a1f" height="93.0" stroke="BLACK" strokeType="INSIDE" width="972.0" />
+      <Label layoutX="49.0" layoutY="19.0" text="Edit User">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="700.0" layoutY="24.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edit_user_name" layoutX="373.0" layoutY="175.0" prefHeight="31.0" prefWidth="381.0" promptText="Edit User Name" />
+      <TextField fx:id="new_user_name" layoutX="373.0" layoutY="232.0" prefHeight="31.0" prefWidth="381.0" promptText="New User Name" />
+      <TextField fx:id="new_login_name" layoutX="373.0" layoutY="295.0" prefHeight="31.0" prefWidth="381.0" promptText="New Login Name" />
+      <TextField fx:id="new_confirm_password" layoutX="373.0" layoutY="425.0" prefHeight="31.0" prefWidth="381.0" promptText="New Confirm Password" />
+      <TextField fx:id="new_password" layoutX="373.0" layoutY="358.0" prefHeight="31.0" prefWidth="381.0" promptText="New Password" />
+      <Label layoutX="63.0" layoutY="171.0" text="Edit User Name">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="228.0" text="New User Name">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="291.0" text="New Login Name">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="354.0" text="New Password">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="421.0" text="New Confirm Password">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="480.0" text="New User Role">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="new_user_role" layoutX="373.0" layoutY="484.0" prefHeight="31.0" prefWidth="381.0" promptText="New User Role" />
+      <Button fx:id="cancel_button" layoutX="341.0" layoutY="622.0" mnemonicParsing="false" onAction="#CancelButton" prefHeight="63.0" prefWidth="145.0" style="-fx-background-color: #f40707;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="save_button" layoutX="624.0" layoutY="622.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="63.0" prefWidth="145.0" style="-fx-background-color: #21ba51;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit_button" layoutX="819.0" layoutY="169.0" mnemonicParsing="false" onAction="#EditButton" prefHeight="31.0" prefWidth="128.0" style="-fx-background-color: #ff8a1f;" text="Edit" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="53.0" layoutX="647.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="usermessage" layoutX="49.0" layoutY="572.0" prefHeight="36.0" prefWidth="327.0" textFill="#34d05b">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

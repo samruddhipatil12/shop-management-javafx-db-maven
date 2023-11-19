@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller = "back.BackScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="713.0" prefWidth="1023.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff851f" height="114.0" stroke="BLACK" strokeType="INSIDE" width="1023.0" />
+      <Label layoutX="33.0" layoutY="29.0" text="Shop Management">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="708.0" layoutY="32.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Button fx:id="back_to_login_screen" layoutX="323.0" layoutY="297.0" mnemonicParsing="false" onAction="#BackToLoginScreen" prefHeight="98.0" prefWidth="399.0" style="-fx-background-color: #05cc4b; -fx-background-color: ;" text="Back To Login Screen" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="79.0" fitWidth="157.0" layoutX="629.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

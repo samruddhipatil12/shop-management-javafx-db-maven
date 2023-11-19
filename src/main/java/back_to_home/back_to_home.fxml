@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller = "back_to_home.BackToHomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="735.0" prefWidth="1112.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff981f" height="104.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="1119.0" />
+      <Label layoutX="84.0" layoutY="24.0" prefHeight="56.0" prefWidth="371.0" text="UserManagement">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="829.0" layoutY="30.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="home_button" layoutX="276.0" layoutY="316.0" mnemonicParsing="false" onAction="#HomeButton" prefHeight="119.0" prefWidth="615.0" style="-fx-background-color: #19b101;" text="Back To Home Screen" textFill="WHITE">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="73.0" fitWidth="65.0" layoutX="757.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

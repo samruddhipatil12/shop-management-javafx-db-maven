@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller = "home_screen.HomeScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff691f" height="699.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="181.0" />
+      <Label fx:id="homescreen" layoutX="296.0" layoutY="67.0" prefHeight="81.0" prefWidth="433.0" text="    Home Screen">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Button fx:id="userManagement" layoutX="251.0" layoutY="194.0" mnemonicParsing="false" onAction="#showUserManagementScreen" prefHeight="54.0" prefWidth="500.0" style="-fx-background-color: #29ae29;" text="User Management" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="productManagement" layoutX="251.0" layoutY="322.0" mnemonicParsing="false" onAction="#showProductManagementScreen" prefHeight="54.0" prefWidth="500.0" style="-fx-background-color: #29ae29;" text="Product Management" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="251.0" layoutY="448.0" mnemonicParsing="false" onAction="#backToHomeScreen" prefHeight="54.0" prefWidth="500.0" style="-fx-background-color: #29ae29;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="4.0" layoutY="238.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./classes%20logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller = "edit_product.EditProductScreenController"  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="819.0" prefWidth="1141.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff771f" height="110.0" stroke="BLACK" strokeType="INSIDE" width="1141.0" />
+      <Label layoutX="71.0" layoutY="26.0" text="Edit Product">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="814.0" layoutY="30.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="edit_product_name" layoutX="467.0" layoutY="177.0" prefHeight="31.0" prefWidth="445.0" promptText="Edit Product Name" />
+      <TextField fx:id="new_product_name" layoutX="466.0" layoutY="248.0" prefHeight="31.0" prefWidth="445.0" promptText="New Product Name" />
+      <TextField fx:id="new_product_id" layoutX="468.0" layoutY="321.0" prefHeight="31.0" prefWidth="445.0" promptText="New Product ID" />
+      <TextField fx:id="new_product_category" layoutX="470.0" layoutY="394.0" prefHeight="31.0" prefWidth="445.0" promptText="New Product Category" />
+      <TextField fx:id="new_product_quantity" layoutX="472.0" layoutY="470.0" prefHeight="31.0" prefWidth="445.0" promptText="New Product Quantity" />
+      <TextField fx:id="new_product_price" layoutX="472.0" layoutY="542.0" prefHeight="31.0" prefWidth="445.0" promptText="New Product Price" />
+      <Label layoutX="80.0" layoutY="171.0" text="Edit Product Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="242.0" text="New Product Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="315.0" text="New Product ID">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="78.0" layoutY="388.0" text="New Product Category">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="464.0" text="New Product Quantity">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="82.0" layoutY="536.0" text="New Product Price">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="edit_button" layoutX="988.0" layoutY="161.0" mnemonicParsing="false" onAction="#EditButton" prefHeight="63.0" prefWidth="126.0" style="-fx-background-color: #ff771f;" text="Edit" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font></Button>
+      <Button fx:id="close_button" layoutX="527.0" layoutY="668.0" mnemonicParsing="false" onAction="#CloseButton" prefHeight="63.0" prefWidth="143.0" style="-fx-background-color: #e11d1d;" text="Close" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Button>
+      <Button fx:id="save_button" layoutX="796.0" layoutY="668.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="63.0" prefWidth="143.0" style="-fx-background-color: #16b52b;" text="Save" textFill="WHITE">
+         <font>
+            <Font size="29.0" />
+         </font></Button>
+      <ImageView fitHeight="51.0" fitWidth="134.0" layoutX="763.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="usermessage" layoutX="82.0" layoutY="641.0" prefHeight="21.0" prefWidth="395.0" textFill="#16b52b">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

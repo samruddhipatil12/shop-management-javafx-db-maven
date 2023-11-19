@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller = "delete_user.DeleteUserScreenController"  maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="784.0" prefWidth="1109.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff571f" height="107.0" stroke="BLACK" strokeType="INSIDE" width="1109.0" />
+      <Label layoutX="59.0" layoutY="26.0" text="Delete User">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="815.0" layoutY="32.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="delete_user_name" layoutX="418.0" layoutY="181.0" prefHeight="31.0" prefWidth="434.0" promptText="Delete User Name" />
+      <TextField fx:id="user_name" layoutX="418.0" layoutY="250.0" prefHeight="31.0" prefWidth="434.0" promptText="User Name" />
+      <TextField fx:id="login_name" layoutX="418.0" layoutY="311.0" prefHeight="31.0" prefWidth="434.0" promptText="Login Name" />
+      <TextField fx:id="password" layoutX="418.0" layoutY="377.0" prefHeight="31.0" prefWidth="434.0" promptText="Password" />
+      <TextField fx:id="user_role" layoutX="418.0" layoutY="526.0" prefHeight="31.0" prefWidth="434.0" promptText="User Role" />
+      <TextField fx:id="confirm_password" layoutX="418.0" layoutY="449.0" prefHeight="31.0" prefWidth="434.0" promptText="Confirm Password" />
+      <Label layoutX="84.0" layoutY="175.0" text="Delete User Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="244.0" text="User Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="305.0" text="Login Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="87.0" layoutY="371.0" text="Password">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="443.0" text="Confirm Password">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="86.0" layoutY="514.0" text="User Role">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="close_button" layoutX="426.0" layoutY="656.0" mnemonicParsing="false" onAction="#CloseButton" prefHeight="57.0" prefWidth="142.0" style="-fx-background-color: #ff571f;" text="Close" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="search_button" layoutX="925.0" layoutY="170.0" mnemonicParsing="false" onAction="#SearchButton" style="-fx-background-color: #1ad06e;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete_button" layoutX="666.0" layoutY="656.0" mnemonicParsing="false" onAction="#DeleteButton" prefHeight="57.0" prefWidth="142.0" style="-fx-background-color: #f14646;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="71.0" fitWidth="68.0" layoutX="747.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="usermessage" layoutX="81.0" layoutY="604.0" prefHeight="36.0" prefWidth="355.0" textFill="#f14646">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" fx:controller ="login.LoginScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="694.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff3f1f" height="694.0" stroke="BLACK" strokeType="INSIDE" width="286.0" />
+      <ImageView fitHeight="210.0" fitWidth="248.0" layoutX="22.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./classes%20logo.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="loginName" layoutX="382.0" layoutY="270.0" prefHeight="48.0" prefWidth="307.0" promptText="User Name">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="password" layoutX="382.0" layoutY="347.0" prefHeight="48.0" prefWidth="307.0" promptText="Password">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <Button fx:id="loginButton" layoutX="382.0" layoutY="445.0" mnemonicParsing="false" onAction="#login" prefHeight="48.0" prefWidth="307.0" text="Login">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="442.0" layoutY="143.0" prefHeight="21.0" prefWidth="163.0" text=" Login">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

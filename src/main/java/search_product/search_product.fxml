@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller = "search_product.SearchProductScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.0" prefWidth="1108.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff7421" height="119.0" layoutX="-3.0" stroke="BLACK" strokeType="INSIDE" width="1116.0" />
+      <Label layoutX="72.0" layoutY="36.0" text="Search Product">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Label>
+      <Label layoutX="793.0" layoutY="43.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search_product_name" layoutX="443.0" layoutY="195.0" prefHeight="31.0" prefWidth="404.0" promptText="Search Product Name " />
+      <TextField fx:id="product_name" layoutX="441.0" layoutY="262.0" prefHeight="31.0" prefWidth="404.0" promptText="Product Name" />
+      <TextField fx:id="product_id" layoutX="441.0" layoutY="340.0" prefHeight="31.0" prefWidth="404.0" promptText="Product ID" />
+      <TextField fx:id="product_category" layoutX="440.0" layoutY="414.0" prefHeight="31.0" prefWidth="404.0" promptText="Product Category" />
+      <TextField fx:id="product_quantity" layoutX="441.0" layoutY="495.0" prefHeight="31.0" prefWidth="404.0" promptText="Product Quantity" />
+      <TextField fx:id="product_price" layoutX="441.0" layoutY="567.0" prefHeight="31.0" prefWidth="404.0" promptText="Product Price" />
+      <Label layoutX="107.0" layoutY="189.0" text="Search Product Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="256.0" text="Product Name">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="334.0" text="Product ID">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="408.0" text="Product Category">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="105.0" layoutY="489.0" text="Product Quantity">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="561.0" text="Product Price">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="search_button" layoutX="933.0" layoutY="184.0" mnemonicParsing="false" onAction="#SearchButton" style="-fx-background-color: #05cc4b;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="close_button" layoutX="592.0" layoutY="658.0" mnemonicParsing="false" onAction="#CloseButton" prefHeight="54.0" prefWidth="107.0" style="-fx-background-color: #e02929;" text="Close" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete_button" layoutX="398.0" layoutY="658.0" mnemonicParsing="false" onAction="#DeleteButton" prefHeight="54.0" prefWidth="107.0" style="-fx-background-color: #ff7421;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit_button" layoutX="791.0" layoutY="658.0" mnemonicParsing="false" onAction="#EditButton" prefHeight="54.0" prefWidth="107.0" style="-fx-background-color: #ff7421;" text="Edit" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="76.0" fitWidth="63.0" layoutX="730.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

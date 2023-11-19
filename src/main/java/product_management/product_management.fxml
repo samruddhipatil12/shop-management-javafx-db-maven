@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller = "product_management.ProductManagementScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="795.0" prefWidth="1037.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff771f" height="801.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" width="238.0" />
+      <Button fx:id="add_product" layoutX="389.0" layoutY="203.0" mnemonicParsing="false" onAction="#AddProduct" prefHeight="63.0" prefWidth="437.0" style="-fx-background-color: #6fc93b;" text="Add Product " textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit_product" layoutX="394.0" layoutY="309.0" mnemonicParsing="false" onAction="#EditProduct" prefHeight="65.0" prefWidth="437.0" style="-fx-background-color: #6fc93b;" text="Edit Product" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="search_product" layoutX="394.0" layoutY="413.0" mnemonicParsing="false" onAction="#SearchProduct" prefHeight="65.0" prefWidth="437.0" style="-fx-background-color: #6fc93b;" text="Search Product" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete_product" layoutX="395.0" layoutY="519.0" mnemonicParsing="false" onAction="#DeleteProduct" prefHeight="65.0" prefWidth="437.0" style="-fx-background-color: #6fc93b;" text="Delete Product" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button fx:id="back_to_home" layoutX="395.0" layoutY="635.0" mnemonicParsing="false" onAction="#BackToHome" prefHeight="65.0" prefWidth="437.0" style="-fx-background-color: #6fc93b;" text="Back To Home" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Label layoutX="367.0" layoutY="83.0" prefHeight="73.0" prefWidth="598.0" text="Product Management">
+         <font>
+            <Font size="53.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="297.0" fitWidth="226.0" layoutX="6.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./classes%20logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

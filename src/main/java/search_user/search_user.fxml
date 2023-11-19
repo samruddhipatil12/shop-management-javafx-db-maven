@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" fx:controller = "search_user.SearchUserScreenController" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="778.0" prefWidth="1115.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff731f" height="110.0" stroke="BLACK" strokeType="INSIDE" width="1115.0" />
+      <Label layoutX="78.0" layoutY="28.0" prefHeight="56.0" prefWidth="220.0" text="Search User">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <Label layoutX="833.0" layoutY="34.0" text="Samruddhi (Admin)">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search_user_name" layoutX="402.0" layoutY="160.0" prefHeight="31.0" prefWidth="453.0" promptText="Search User Name" />
+      <TextField fx:id="user_name" layoutX="402.0" layoutY="225.0" prefHeight="31.0" prefWidth="453.0" promptText="User Name" />
+      <TextField fx:id="login_name" layoutX="404.0" layoutY="296.0" prefHeight="31.0" prefWidth="453.0" promptText="Login Name" />
+      <TextField fx:id="password" layoutX="402.0" layoutY="365.0" prefHeight="31.0" prefWidth="453.0" promptText="Password" />
+      <TextField fx:id="confirm_password" layoutX="404.0" layoutY="431.0" prefHeight="31.0" prefWidth="453.0" promptText="Confirm Password" />
+      <TextField fx:id="user_role" layoutX="404.0" layoutY="499.0" prefHeight="31.0" prefWidth="453.0" promptText="User Role" />
+      <Label layoutX="94.0" layoutY="156.0" text="Search User Name">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="217.0" text="User Name">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="288.0" text="Login Name">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="361.0" text="Password">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="427.0" text="Confirm Password">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="93.0" layoutY="495.0" text="User Role">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="search_button" layoutX="956.0" layoutY="160.0" mnemonicParsing="false" onAction="#SearchButton" style="-fx-background-color: #05cc4b;" text="Search" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="back_button" layoutX="313.0" layoutY="640.0" mnemonicParsing="false" onAction="#BackButton" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #ff731f;" text="Back" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="delete_button" layoutX="534.0" layoutY="640.0" mnemonicParsing="false" onAction="#DeleteButton" prefHeight="56.0" prefWidth="132.0" style="-fx-background-color: #e02929;" text="Delete" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="edit_button" layoutX="757.0" layoutY="640.0" mnemonicParsing="false" onAction="#EditButton" prefHeight="54.0" prefWidth="132.0" style="-fx-background-color: #ff731f;" text="Edit" textFill="WHITE">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="56.0" fitWidth="54.0" layoutX="779.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@./s%20logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
